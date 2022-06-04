@@ -3,11 +3,13 @@ import './search-style.css';
 
 export const Search = ({placeholder, handleChange}) => {
   return (
-       <input
+    <div className='search-fit'>
+      <input
        className='search-box' 
        type="search" 
        placeholder={placeholder}
        onChange={handleChange}
-       />
+      />
+    </div>
   )
 }

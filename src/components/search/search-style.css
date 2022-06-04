@@ -1,9 +1,7 @@
 .search-box {
     height: 60px;
     line-height: 30px;
-    margin-bottom: 20px;
     outline: none;
-    border: none;
     width: 180px;
     text-align: center;
 }
